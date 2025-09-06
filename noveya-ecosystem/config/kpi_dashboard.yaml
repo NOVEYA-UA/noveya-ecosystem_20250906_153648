@@ -1,0 +1,11 @@
+kpi:
+- name: TTF
+  target: −25..−40%/y
+- name: LocalGVA
+  target: +20..30%/y
+- name: eco_violations_per_100
+  target: −50%/y
+- name: algo_slots_share
+  target: '>=95%'
+- name: nvt_work_share
+  target: '>=70%'

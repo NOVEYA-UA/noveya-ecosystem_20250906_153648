@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SigmaRegistryEntry",
+  "type": "object",
+  "properties": {
+    "event": {
+      "type": "string",
+      "enum": [
+        "WorkAccepted",
+        "NVTMinted",
+        "ECRMinted",
+        "NFTIssued",
+        "TamgaIssued",
+        "AuditClosed"
+      ]
+    },
+    "hash": {
+      "type": "string"
+    },
+    "actor": {
+      "type": "string"
+    },
+    "ref": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "event",
+    "hash",
+    "timestamp"
+  ]
+}

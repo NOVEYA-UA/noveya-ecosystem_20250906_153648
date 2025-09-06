@@ -1,0 +1,10 @@
+{
+  "tamga_id": "string",
+  "cargo_hash": "string",
+  "payer_id": "string",
+  "route_id": "string",
+  "duty_paid": "boolean",
+  "eco_score": "number",
+  "issued_at": "date-time",
+  "oracle_sig": "string"
+}
